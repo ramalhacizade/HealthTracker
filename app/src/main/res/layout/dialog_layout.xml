@@ -1,0 +1,26 @@
+<!-- res/layout/dialog_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView to display the guide image -->
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/msgbox"
+    android:scaleType="centerInside"
+    android:contentDescription="Guide Image" />
+
+    <!-- TextView for the guide message -->
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Place your phone on the ground with the screen facing you to count your pushups correctly."
+        android:textSize="16sp"
+        android:textAlignment="center" />
+</LinearLayout>
